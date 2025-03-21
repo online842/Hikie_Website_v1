@@ -24,14 +24,14 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="py-24 bg-[#161616] sm:py-32">
+    <div className="py-24 bg-[#000000] sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-base font-semibold leading-7 text-[#DE2C00]"
+            className="text-base font-semibold leading-7 text-[#ff008C]"
           >
             Kreatör Ekonomisinin Yeni Nesil Platformu
           </motion.h2>
@@ -39,7 +39,7 @@ export default function Features() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="mt-2 text-3xl font-bold tracking-tight text-[#DBFF08] sm:text-4xl"
+            className="mt-2 text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl"
           >
             Her Şey Tek Platformda
           </motion.p>
@@ -61,9 +61,9 @@ export default function Features() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="flex flex-col bg-[#161616]/50 p-8 rounded-2xl border border-[#DE2C00]/20"
+                className="flex flex-col bg-[#000000]/50 p-8 rounded-2xl border border-[#ff008C]/20"
               >
-                <dt className="text-xl font-semibold leading-7 text-[#DBFF08]">
+                <dt className="text-xl font-semibold leading-7 text-[#84ff20]">
                   {feature.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-white">
@@ -71,7 +71,7 @@ export default function Features() {
                   <p className="mt-6">
                     <a
                       href="#"
-                      className="text-sm font-semibold leading-6 text-[#DE2C00] hover:text-[#DBFF08]"
+                      className="text-sm font-semibold leading-6 text-[#ff008C] hover:text-[#ff008C]"
                     >
                       Daha fazla bilgi <ArrowRight className="inline-block w-4 h-4 ml-1" />
                     </a>

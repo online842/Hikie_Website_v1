@@ -39,17 +39,17 @@ const paidFeatures = [
 
 export default function Pricing() {
   return (
-    <div className="w-full bg-[#161616]">
+    <div className="w-full bg-[#000000]">
       <div className="container mx-auto px-4 py-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Ücretsiz Özellikler */}
-          <div className="bg-gradient-to-br from-[#DE2C00]/20 to-[#DE2C00]/5 rounded-3xl p-8 lg:p-12">
+          <div className="bg-gradient-to-br from-[#ff008C]/20 to-[#ff008C]/5 rounded-3xl p-8 lg:p-12">
             <div className="flex items-center gap-3 mb-8">
-              <Gift className="w-8 h-8 text-[#DBFF08]" />
-              <h2 className="text-2xl font-semibold text-[#DBFF08]">
+              <Gift className="w-8 h-8 text-[#84ff20]" />
+              <h2 className="text-2xl font-semibold text-[#84ff20]">
                 Neler Bulacaksın?
               </h2>
-              <span className="text-sm font-medium bg-[#DBFF08] px-3 py-1 rounded-full text-[#161616]">
+              <span className="text-sm font-medium bg-[#84ff20] px-3 py-1 rounded-full text-[#000000]">
                 herkese ücretsiz
               </span>
             </div>
@@ -57,7 +57,7 @@ export default function Pricing() {
             <ul className="space-y-4">
               {freeFeatures.map((feature, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <Check className="w-5 h-5 mt-0.5 text-[#DBFF08] shrink-0" />
+                  <Check className="w-5 h-5 mt-0.5 text-[#84ff20] shrink-0" />
                   <span className="text-white">{feature}</span>
                 </li>
               ))}
@@ -66,7 +66,7 @@ export default function Pricing() {
             <div className="mt-8">
               <a
                 href="/register"
-                className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#161616] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 bg-[#ff008C] text-[#ffffff] hover:bg-[#84ff20] hover:text-black rounded-md text-base font-medium transition-colors"
               >
                 ✨ Hemen Ücretsiz Keşfet!
               </a>
@@ -74,9 +74,9 @@ export default function Pricing() {
           </div>
 
           {/* Ücretli Özellikler */}
-          <div className="bg-[#161616]/50 rounded-3xl p-8 lg:p-12 border border-[#DE2C00]">
+          <div className="bg-[#000000]/50 rounded-3xl p-8 lg:p-12 border border-[#ff008C]">
             <div className="flex items-center gap-3 mb-8">
-              <h2 className="text-2xl font-semibold text-[#DBFF08]">
+              <h2 className="text-2xl font-semibold text-[#84ff20]">
                 Neler Ücretli?
               </h2>
             </div>
@@ -89,12 +89,12 @@ export default function Pricing() {
               {paidFeatures.map((feature, index) => (
                 <div
                   key={index}
-                  className="flex flex-col gap-1 pb-6 border-b border-[#DE2C00]/20 last:border-0 last:pb-0"
+                  className="flex flex-col gap-1 pb-6 border-b border-[#ff008C]/20 last:border-0 last:pb-0"
                 >
                   <div className="flex items-start justify-between gap-4">
-                    <h3 className="font-medium text-[#DBFF08]">{feature.name}</h3>
+                    <h3 className="font-medium text-[#84ff20]">{feature.name}</h3>
                     <div className="text-right">
-                      <div className="font-semibold text-[#DE2C00]">{feature.price}</div>
+                      <div className="font-semibold text-[#ff008C]">{feature.price}</div>
                       <div className="text-sm text-white/70">{feature.period}</div>
                     </div>
                   </div>

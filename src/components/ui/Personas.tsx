@@ -49,10 +49,10 @@ const personas = [
 
 export default function Personas() {
   return (
-    <section className="py-24 bg-[#161616]">
+    <section className="py-24 bg-[#000000]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-[#DBFF08]">
+          <h2 className="text-4xl font-bold mb-4 text-[#84ff20]">
             Kimler İçin?
           </h2>
           <p className="text-xl text-white max-w-3xl mx-auto">
@@ -66,13 +66,13 @@ export default function Personas() {
               key={persona.title}
               className="relative overflow-hidden group"
             >
-              <div className="relative bg-[#161616]/50 p-8 rounded-2xl border border-[#DE2C00]/20 group-hover:border-[#DE2C00] transition-all">
+              <div className="relative bg-[#000000]/50 p-8 rounded-2xl border border-[#ff008C]/20 group-hover:border-[#ff008C] transition-all">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 rounded-lg bg-[#161616]/50 flex items-center justify-center group-hover:bg-[#DBFF08]/10 transition-all">
-                    <persona.icon className="w-6 h-6 text-[#DBFF08]" />
+                  <div className="w-12 h-12 rounded-lg bg-[#000000]/50 flex items-center justify-center group-hover:bg-[#84ff20]/10 transition-all">
+                    <persona.icon className="w-6 h-6 text-[#84ff20]" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold text-[#DBFF08]">
+                    <h3 className="text-2xl font-semibold text-[#84ff20]">
                       {persona.title}
                     </h3>
                     <p className="text-white/80">
@@ -87,7 +87,7 @@ export default function Personas() {
                       key={index}
                       className="flex items-center gap-3 group-hover:translate-x-2 transition-transform"
                     >
-                      <feature.icon className="w-5 h-5 text-[#DE2C00]" />
+                      <feature.icon className="w-5 h-5 text-[#ff008C]" />
                       <span className="text-white">
                         {feature.text}
                       </span>

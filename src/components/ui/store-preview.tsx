@@ -6,10 +6,10 @@ export default function StorePreview() {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <div className="w-full bg-[#161616]">
+    <div className="w-full bg-[#000000]">
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tight text-[#DBFF08] sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl">
             Hikie Pazaryeri
           </h2>
           <p className="mt-4 text-lg leading-8 text-white">
@@ -20,8 +20,8 @@ export default function StorePreview() {
         
         <div className="relative w-full aspect-[9/16] sm:aspect-[16/9] rounded-xl overflow-hidden shadow-2xl">
           {isLoading && (
-            <div className="absolute inset-0 flex items-center justify-center bg-[#161616]">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#DE2C00]"></div>
+            <div className="absolute inset-0 flex items-center justify-center bg-[#000000]">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#84ff20]"></div>
             </div>
           )}
           <iframe

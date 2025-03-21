@@ -25,7 +25,7 @@ const commitments = [
 
 export default function ManifestoPage() {
   return (
-    <div className="min-h-screen bg-[#161616]">
+    <div className="min-h-screen bg-[#000000]">
       <div className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.span
@@ -99,7 +99,7 @@ export default function ManifestoPage() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
-                  className="bg-[#161616]/50 p-6 rounded-xl border border-[#DE2C00]/20"
+                  className="bg-[#000000]/50 p-6 rounded-xl border border-[#DE2C00]/20"
                 >
                   <h3 className="text-xl font-semibold text-[#DBFF08] mb-2">
                     {commitment.title}
@@ -125,14 +125,14 @@ export default function ManifestoPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
                 href="/register"
-                className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#161616] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#000000] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
               >
                 Hemen Başla
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-6 py-3 border border-[#DE2C00] text-white hover:bg-[#DBFF08] hover:text-[#161616] rounded-md text-base font-medium transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 border border-[#DE2C00] text-white hover:bg-[#DBFF08] hover:text-[#000000] rounded-md text-base font-medium transition-colors"
               >
                 Görüşme Planla
               </Link>

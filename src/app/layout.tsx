@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body className={`${inter.className} ${jost.variable}`}>
+      <body className={`${inter.className} ${jost.variable} bg-black`}>
         <Navbar />
         <main className="pt-16">
           {children}

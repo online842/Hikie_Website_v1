@@ -28,7 +28,7 @@ const features = [
 
 export default function MerchSolutions() {
   return (
-    <div className="bg-[#161616] min-h-screen pt-24">
+    <div className="bg-[#000000] min-h-screen pt-24">
       <div className="relative isolate">
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
@@ -43,7 +43,7 @@ export default function MerchSolutions() {
               <div className="mt-10 flex items-center gap-x-6">
                 <Link
                   href="/register"
-                  className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#161616] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#000000] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
                 >
                   Hemen Başla
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -85,8 +85,8 @@ export default function MerchSolutions() {
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-4">
               {features.map((feature) => (
                 <div key={feature.name} className="relative overflow-hidden group">
-                  <div className="relative bg-[#161616]/50 p-8 rounded-2xl border border-[#DE2C00]/20 group-hover:border-[#DE2C00] transition-all">
-                    <div className="w-12 h-12 rounded-lg bg-[#161616]/50 flex items-center justify-center mb-6 group-hover:bg-[#DBFF08]/10 transition-all">
+                  <div className="relative bg-[#000000]/50 p-8 rounded-2xl border border-[#DE2C00]/20 group-hover:border-[#DE2C00] transition-all">
+                    <div className="w-12 h-12 rounded-lg bg-[#000000]/50 flex items-center justify-center mb-6 group-hover:bg-[#DBFF08]/10 transition-all">
                       <feature.icon className="w-6 h-6 text-[#DBFF08]" />
                     </div>
                     <h3 className="text-xl font-semibold mb-4 text-[#DBFF08]">
@@ -115,7 +115,7 @@ export default function MerchSolutions() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 href="/register"
-                className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#161616] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#000000] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
               >
                 Hemen Başla
                 <ArrowRight className="ml-2 h-5 w-5" />
