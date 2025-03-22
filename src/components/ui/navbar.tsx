@@ -6,19 +6,25 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 
 const solutions = [
   {
-    name: 'Merch Business',
+    name: 'Senin için Üretelim',
     description: 'Kendi merch koleksiyonunu oluştur ve yönet',
     href: '/solutions/merch'
   },
   {
-    name: 'Kazanç Sağlamaya Başla',
+    name: 'Websitenden Satış Yap',
     description: 'Yaratıcı içeriklerini gelire dönüştür',
     href: '/solutions/monetize'
   },
   {
-    name: 'Pazaryeri Entegrasyonu',
+    name: 'Pazaryerimize Katıl',
     description: 'Ürünlerini daha geniş kitlelere ulaştır',
     href: '/solutions/marketplace'
+    
+  },
+  {
+    name: 'Topluluğunu Başlat ve Abonelik Sat',
+    description: 'Topluluğunu oluştur ve abonelik sistemiyle gelir elde et',
+    href: '/solutions/community'
   }
 ];
 

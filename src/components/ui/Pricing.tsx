@@ -3,19 +3,19 @@
 import { Check, Gift } from "lucide-react";
 
 const freeFeatures = [
-  "Sana özel websiten",
-  "Pazaryerlerimizde ürün listeleme",
-  "Güvenli ticaret altyapısı",
-  "Blogging & içerik üretimi",
-  "Anlaşmalı kargo avantajları",
-  "HIKIE topluluğuna erişim",
-  "Kullanıcılarına SMS & e-posta gönderme"
+  
+  "Güvenli Ticaret Altyapımızı kullan",
+  "Sana özel sitende ürün listele ve ödeme al",
+  "88 TL'ye ürünlerini kapıdan kapıya kargola",
+  "HIKIE topluluğuna katıl ve yeni bağlantılar kur",
+  "Topluluğunu yönet ve kullanıcılarına SMS & e-posta gönder",
+  "Pazaryerlerimizde ürün listele",
 ];
 
 const paidFeatures = [
   {
     name: "Özel Domain Adı",
-    price: "10 USD",
+    price: "400 TRY",
     period: "aylık"
   },
   {
@@ -25,15 +25,13 @@ const paidFeatures = [
   },
   {
     name: "Abonelik Yönetimi",
-    price: "10 USD + %3",
-    period: "aylık + işlem komisyonu",
-    description: "Ödeme altyapısı dahil"
+    price: "Yakında",
+    period: "",
   },
   {
     name: "Bağış Toplama",
-    price: "3 USD + %3",
-    period: "aylık + işlem komisyonu",
-    description: "Ödeme altyapısı dahil"
+    price: "Yakında",
+    period: "",
   }
 ];
 
@@ -49,7 +47,7 @@ export default function Pricing() {
               <h2 className="text-2xl font-semibold text-[#84ff20]">
                 Neler Bulacaksın?
               </h2>
-              <span className="text-sm font-medium bg-[#84ff20] px-3 py-1 rounded-full text-[#000000]">
+              <span className="text-sm font-medium flex text-center bg-[#84ff20] px-3 py-2 rounded-full text-[#000000]">
                 herkese ücretsiz
               </span>
             </div>
@@ -82,7 +80,7 @@ export default function Pricing() {
             </div>
             
             <p className="text-white mb-8 italic">
-              İhtiyacın olan kadar öde, gereksiz harcamalara son!
+              İhtiyacın olan kadar öde, gereksiz harcama yok!
             </p>
 
             <div className="space-y-6">

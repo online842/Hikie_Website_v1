@@ -50,7 +50,7 @@ export default function ManifestoPage() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl text-white"
           >
-            Dijital dünyanın yeni kahramanları için tasarlandı.
+            Dijital dünyanın yeni kreatörleri için tasarlandı.
             Her şey tek platformda, sınırsız potansiyel.
           </motion.p>
         </div>
@@ -63,7 +63,7 @@ export default function ManifestoPage() {
           >
             <h2 className="text-2xl font-bold text-[#DBFF08] mb-4">Vizyonumuz</h2>
             <p className="text-white mb-8">
-              Her kreatörün ve girişimcinin kendi dijital imparatorluğunu kurabildiği bir dünya inşa ediyoruz.
+              Her kreatörün ve girişimcinin kendi dijital alanını kurabildiği bir dünya inşa ediyoruz.
               Tek bir platform üzerinden tüm dijital varlıklarınızı yönetin:
             </p>
             <ul className="space-y-4 mb-12">
@@ -119,7 +119,7 @@ export default function ManifestoPage() {
             className="text-center mt-16"
           >
             <p className="text-xl font-semibold text-[#DBFF08] mb-8">
-              Dijital geleceğinizi bizimle inşa edin.
+              Dijital geleceğinize başlayın.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

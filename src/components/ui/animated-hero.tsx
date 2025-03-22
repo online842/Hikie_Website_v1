@@ -14,8 +14,8 @@ export default function AnimatedHero() {
       "Alanını Oluştur",
       "Markalaş",
       "Satışa Başla",
-      "Para Kazan",
-      "Topluluğunu Yönet",
+      "Gelire Dönüştür",
+      "Topluluğunu Başlat",
       "Eğitimler Ver",
       "Aboneliklerini Sat",
       "Dijital Ürün Sat",
@@ -42,7 +42,7 @@ export default function AnimatedHero() {
           <div>
             <Link
               href="/manifesto"
-              className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-[#FFFFFFFF] bg-[#000AFF]"
+              className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-[#FFFFFFFF] bg-[#000AFF] hover:bg-[#ff008C] hover:text-white"
             >
               Manifestomuzu Okuyun
               <ArrowRightIcon className="ml-2 h-5 w-5" />
