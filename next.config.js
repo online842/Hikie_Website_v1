@@ -1,16 +1,22 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ['images.unsplash.com'],
-    },
-    eslint: {
-      ignoreDuringBuilds: true,
-    },
-    reactStrictMode: true,
-    poweredByHeader: false,
-    compiler: {
-      removeConsole: process.env.NODE_ENV === 'production',
-    }
-  };
-  
-  module.exports = nextConfig; 
+  images: {
+    domains: ['hikie.store'],
+    unoptimized: false,
+  },
+  experimental: {
+    optimizeCss: true,
+    optimizePackageImports: ['@radix-ui/react-icons', 'lucide-react', 'framer-motion'],
+  },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  compress: true,
+  poweredByHeader: false,
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig; 

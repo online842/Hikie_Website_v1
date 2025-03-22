@@ -23,8 +23,11 @@ export default function RootLayout({
   return (
     <html lang="tr" suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://hikie.store" />
+        <link rel="preconnect" href="https://hikie.store" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://hikie.store" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+        <link rel="preload" href="https://hikie.store" as="document" />
       </head>
       <body className={`${inter.className} ${jost.variable} bg-black`}>
         <Navbar />

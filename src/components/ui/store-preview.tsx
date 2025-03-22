@@ -31,6 +31,8 @@ export default function StorePreview() {
             allow="clipboard-write"
             width="100%"
             height="100%"
+            loading="lazy"
+            title="Hikie Store Preview"
           />
         </div>
       </div>
