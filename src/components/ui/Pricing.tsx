@@ -2,6 +2,13 @@
 
 import { Check, Gift } from "lucide-react";
 
+interface PaidFeature {
+  name: string;
+  price: string;
+  period: string;
+  description?: string;
+}
+
 const freeFeatures = [
   
   "Güvenli Ticaret Altyapımızı kullan",
@@ -12,26 +19,30 @@ const freeFeatures = [
   "Pazaryerlerimizde ürün listele",
 ];
 
-const paidFeatures = [
+const paidFeatures: PaidFeature[] = [
   {
     name: "Özel Domain Adı",
     price: "400 TRY",
-    period: "aylık"
+    period: "aylık",
+    description: "Kendi alan adınızı kullanarak profesyonel bir görünüm elde edin"
   },
   {
     name: "Depolama, Kargolama ve Müşteri Hizmetleri Yönetimi",
     price: "İhtiyaca Göre",
-    period: "değişken"
+    period: "değişken",
+    description: "Operasyonel süreçleri bize bırakın, siz işinize odaklanın"
   },
   {
     name: "Abonelik Yönetimi",
     price: "Yakında",
     period: "",
+    description: "Düzenli gelir elde etmek için abonelik sistemi"
   },
   {
     name: "Bağış Toplama",
     price: "Yakında",
     period: "",
+    description: "Topluluğunuzdan kolay ve güvenli şekilde bağış toplayın"
   }
 ];
 
