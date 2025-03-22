@@ -28,8 +28,9 @@ export default function StorePreview() {
             src="https://hikie.store"
             className="w-full h-full border-0"
             onLoad={() => setIsLoading(false)}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            loading="lazy"
+            allow="clipboard-write"
+            width="100%"
+            height="100%"
           />
         </div>
       </div>

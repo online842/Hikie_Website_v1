@@ -21,7 +21,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="tr">
+    <html lang="tr" suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://hikie.store" />
+        <link rel="dns-prefetch" href="https://hikie.store" />
+      </head>
       <body className={`${inter.className} ${jost.variable} bg-black`}>
         <Navbar />
         <main className="pt-16">
