@@ -10,9 +10,9 @@ export default function AnimatedHero() {
   const titles = useMemo(
     () => [
       "Alanını Oluştur",
+      "Gelire Dönüştür",
       "Markalaş",
       "Satışa Başla",
-      "Gelire Dönüştür",
       "Topluluğunu Başlat",
       "Eğitimler Ver",
       "Aboneliklerini Sat",
@@ -29,7 +29,7 @@ export default function AnimatedHero() {
       } else {
         setTitleNumber(titleNumber + 1);
       }
-    }, 2500);
+    }, 2100);
     return () => clearTimeout(timeoutId);
   }, [titleNumber, titles]);
 

@@ -98,7 +98,7 @@ export default function Contact() {
             href="mailto:hello@hikie.co"
             className="text-[#84ff20] font-medium hover:text-[#ff008C] transition-colors inline-flex items-center gap-2"
           >
-            hello@hikie.co
+            info@hikie.space
             <motion.span
               animate={{ x: [0, 5, 0] }}
               transition={{ duration: 1, repeat: Infinity }}

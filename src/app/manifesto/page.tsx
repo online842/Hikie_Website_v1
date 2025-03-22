@@ -32,7 +32,7 @@ export default function ManifestoPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-block text-sm font-medium bg-[#DE2C00] text-white px-4 py-2 rounded-full mb-4"
+            className="inline-block text-sm font-medium bg-[#ff008C] text-white px-4 py-2 rounded-full mb-4"
           >
             Manifestomuz
           </motion.span>
@@ -40,7 +40,7 @@ export default function ManifestoPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-4xl font-bold text-[#DBFF08] mb-4"
+            className="text-4xl font-bold text-[#84ff20] mb-4"
           >
             Kreatör Ekonomisinin Geleceği Burada
           </motion.h1>
@@ -61,26 +61,26 @@ export default function ManifestoPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <h2 className="text-2xl font-bold text-[#DBFF08] mb-4">Vizyonumuz</h2>
+            <h2 className="text-2xl font-bold text-[#84ff20] mb-4">Vizyonumuz</h2>
             <p className="text-white mb-8">
               Her kreatörün ve girişimcinin kendi dijital alanını kurabildiği bir dünya inşa ediyoruz.
               Tek bir platform üzerinden tüm dijital varlıklarınızı yönetin:
             </p>
             <ul className="space-y-4 mb-12">
               <li className="flex items-start">
-                <span className="text-[#DE2C00] mr-2">•</span>
+                <span className="text-[#ff008C] mr-2">•</span>
                 <span>Dijital ürünler, abonelikler ve özel içerikler</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#DE2C00] mr-2">•</span>
+                <span className="text-[#ff008C] mr-2">•</span>
                 <span>Print-on-demand merch ve fiziksel ürünler</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#DE2C00] mr-2">•</span>
+                <span className="text-[#ff008C] mr-2">•</span>
                 <span>Topluluk yönetimi ve üyelik sistemleri</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#DE2C00] mr-2">•</span>
+                <span className="text-[#ff008C] mr-2">•</span>
                 <span>Gelişmiş analitik ve otomatizasyon araçları</span>
               </li>
             </ul>
@@ -91,7 +91,7 @@ export default function ManifestoPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <h2 className="text-2xl font-bold text-[#DBFF08] mb-6">Taahhütlerimiz</h2>
+            <h2 className="text-2xl font-bold text-[#84ff20] mb-6">Taahhütlerimiz</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
               {commitments.map((commitment, index) => (
                 <motion.div
@@ -99,9 +99,9 @@ export default function ManifestoPage() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
-                  className="bg-[#000000]/50 p-6 rounded-xl border border-[#DE2C00]/20"
+                  className="bg-[#000000]/50 p-6 rounded-xl border border-[#ff008C]/20"
                 >
-                  <h3 className="text-xl font-semibold text-[#DBFF08] mb-2">
+                  <h3 className="text-xl font-semibold text-[#84ff20] mb-2">
                     {commitment.title}
                   </h3>
                   <p className="text-white">
@@ -118,21 +118,21 @@ export default function ManifestoPage() {
             transition={{ duration: 0.5, delay: 0.8 }}
             className="text-center mt-16"
           >
-            <p className="text-xl font-semibold text-[#DBFF08] mb-8">
+            <p className="text-xl font-semibold text-[#84ff20] mb-8">
               Dijital geleceğinize başlayın.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link
                 href="/register"
-                className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#000000] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 bg-[#ff008C] text-white hover:bg-[#84ff20] hover:text-[#000000] rounded-md text-base font-medium transition-colors"
               >
                 Hemen Başla
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-6 py-3 border border-[#DE2C00] text-white hover:bg-[#DBFF08] hover:text-[#000000] rounded-md text-base font-medium transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 border border-[#ff008C] text-[#ff008C] hover:bg-[#84ff20] hover:text-[#000000] hover:border-[#84ff20] rounded-md text-base font-medium transition-colors"
               >
                 Görüşme Planla
               </Link>

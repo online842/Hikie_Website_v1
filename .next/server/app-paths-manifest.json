@@ -1,14 +1,5 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/login/page": "app/login/page.js",
-  "/manifesto/page": "app/manifesto/page.js",
   "/page": "app/page.js",
-  "/pricing/page": "app/pricing/page.js",
-  "/register/page": "app/register/page.js",
-  "/solutions/community/page": "app/solutions/community/page.js",
-  "/solutions/creator/page": "app/solutions/creator/page.js",
-  "/solutions/marketplace/page": "app/solutions/marketplace/page.js",
-  "/solutions/merch/page": "app/solutions/merch/page.js",
-  "/solutions/monetize/page": "app/solutions/monetize/page.js"
+  "/manifesto/page": "app/manifesto/page.js",
+  "/contact/page": "app/contact/page.js"
 }
