@@ -28,7 +28,7 @@ const features = [
 
 export default function MerchSolutions() {
   return (
-    <div className="bg-[#F5F5F5] min-h-screen pt-24">
+    <div className="bg-[#000000] min-h-screen pt-24">
       <div className="relative isolate">
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">

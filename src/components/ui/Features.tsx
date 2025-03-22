@@ -24,7 +24,7 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="py-24 bg-[#F5F5F5] sm:py-32">
+    <div className="py-24 bg-[#000000] sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <motion.h2
