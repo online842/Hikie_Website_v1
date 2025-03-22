@@ -34,7 +34,7 @@ export default function AnimatedHero() {
   }, [titleNumber, titles]);
 
   return (
-    <div className="w-full min-h-[80vh] relative isolate overflow-hidden bg-[#000000]">
+    <div className="w-full min-h-[80vh] relative isolate overflow-hidden bg-[#F5F5F5]">
       <div className="relative z-10 container mx-auto">
         <div className="flex gap-15 py-20 lg:py-20 items-center justify-center flex-col">
           <motion.div

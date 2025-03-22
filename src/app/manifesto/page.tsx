@@ -25,7 +25,7 @@ const commitments = [
 
 export default function ManifestoPage() {
   return (
-    <div className="min-h-screen bg-[#000000]">
+    <div className="min-h-screen bg-[#F5F5F5]">
       <div className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.span
