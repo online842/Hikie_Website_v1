@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 const features = [
@@ -27,40 +26,22 @@ export default function Features() {
     <div className="py-24 bg-[#000000] sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-base font-semibold leading-7 text-[#ff008C]"
-          >
+          <h2 className="text-base font-semibold leading-7 text-[#ff008C]">
             Kreatör Ekonomisinin Yeni Nesil Platformu
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="mt-2 text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl"
-          >
+          </h2>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl">
             Her Şey Tek Platformda
-          </motion.p>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="mt-6 text-lg leading-8 text-white"
-          >
+          </p>
+          <p className="mt-6 text-lg leading-8 text-white">
             Dijital ürünlerden merch'e, üyelik sistemlerinden özel içeriklere. 
             Tüm gelir kaynaklarınızı tek platformda yönetin, topluluğunuzu güçlendirin.
-          </motion.p>
+          </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
             {features.map((feature) => (
-              <motion.div
+              <div
                 key={feature.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
                 className="flex flex-col bg-[#000000]/50 p-8 rounded-2xl border border-[#ff008C]/20"
               >
                 <dt className="text-xl font-semibold leading-7 text-[#84ff20]">
@@ -77,7 +58,7 @@ export default function Features() {
                     </a>
                   </p>
                 </dd>
-              </motion.div>
+              </div>
             ))}
           </dl>
         </div>
