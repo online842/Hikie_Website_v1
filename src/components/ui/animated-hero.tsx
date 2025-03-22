@@ -42,7 +42,7 @@ export default function AnimatedHero() {
           >
             <Link href="/manifesto">
               Manifestomuzu Okuyun
-              <ArrowRightIcon className="ml-2 h-5 w-5" />
+              
             </Link>
           </div>
           <div className="flex gap-4 flex-col">

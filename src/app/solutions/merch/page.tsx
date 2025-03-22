@@ -33,7 +33,7 @@ export default function MerchSolutions() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="max-w-xl">
-              <h1 className="text-4xl font-bold tracking-tight text-[#DBFF08] sm:text-6xl">
+              <h1 className="text-4xl font-bold tracking-tight text-[#84ff20] sm:text-6xl">
                 Merch Business
               </h1>
               <p className="mt-6 text-lg leading-8 text-white">
@@ -43,14 +43,14 @@ export default function MerchSolutions() {
               <div className="mt-10 flex items-center gap-x-6">
                 <Link
                   href="/register"
-                  className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#000000] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-[#ff008C] text-white hover:bg-[#84ff20] hover:text-[#000000] rounded-md text-base font-medium transition-colors"
                 >
                   Hemen Başla
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 <Link
                   href="/contact"
-                  className="text-sm font-semibold leading-6 text-white hover:text-[#DE2C00]"
+                  className="text-sm font-semibold leading-6 text-white hover:text-[#ff008C]"
                 >
                   Görüşme Planla <span aria-hidden="true">→</span>
                 </Link>
@@ -73,7 +73,7 @@ export default function MerchSolutions() {
         {/* Özellikler */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-[#DBFF08] sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl">
               Merch işinizi büyütün
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
@@ -85,11 +85,11 @@ export default function MerchSolutions() {
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-4">
               {features.map((feature) => (
                 <div key={feature.name} className="relative overflow-hidden group">
-                  <div className="relative bg-[#000000]/50 p-8 rounded-2xl border border-[#DE2C00]/20 group-hover:border-[#DE2C00] transition-all">
-                    <div className="w-12 h-12 rounded-lg bg-[#000000]/50 flex items-center justify-center mb-6 group-hover:bg-[#DBFF08]/10 transition-all">
-                      <feature.icon className="w-6 h-6 text-[#DBFF08]" />
+                  <div className="relative bg-[#000000]/50 p-8 rounded-2xl border border-[#ff008C]/20 group-hover:border-[#ff008C] transition-all">
+                    <div className="w-12 h-12 rounded-lg bg-[#000000]/50 flex items-center justify-center mb-6 group-hover:bg-[#84ff20]/10 transition-all">
+                      <feature.icon className="w-6 h-6 text-[#84ff20]" />
                     </div>
-                    <h3 className="text-xl font-semibold mb-4 text-[#DBFF08]">
+                    <h3 className="text-xl font-semibold mb-4 text-[#84ff20]">
                       {feature.name}
                     </h3>
                     <p className="text-white group-hover:text-white transition-colors">
@@ -105,7 +105,7 @@ export default function MerchSolutions() {
         {/* CTA Section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8 pb-24">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-[#DBFF08] sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl">
               Merch yolculuğunuza başlayın
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
@@ -115,7 +115,7 @@ export default function MerchSolutions() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 href="/register"
-                className="inline-flex items-center justify-center px-6 py-3 bg-[#DBFF08] text-[#000000] hover:bg-[#DE2C00] hover:text-white rounded-md text-base font-medium transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 bg-[#ff008C] text-white hover:bg-[#84ff20] hover:text-[#000000] rounded-md text-base font-medium transition-colors"
               >
                 Hemen Başla
                 <ArrowRight className="ml-2 h-5 w-5" />
