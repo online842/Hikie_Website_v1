@@ -1,3 +1,18 @@
+# Hikie
+
+Modern e-ticaret deneyimi için yeni nesil platform.
+
+## Production Branch
+
+Main branch üzerinden production deployment yapılmaktadır.
+
+## Özellikler
+
+- Modern ve responsive tasarım
+- Koyu tema desteği
+- Animasyonlu UI elementleri
+- SEO optimizasyonu
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
