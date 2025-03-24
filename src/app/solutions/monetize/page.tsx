@@ -1,27 +1,27 @@
 'use client';
 
-import { DollarSign, BarChart, Target, Zap, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { DollarSign, Wallet, BarChart3, ArrowRight, Zap } from 'lucide-react';
 
 const features = [
   {
-    name: 'Çoklu Gelir Modeli',
-    description: 'Abonelik, tek seferlik satış, özel ürünler ve daha fazlası ile gelir elde edin.',
+    name: "Gelir Yönetimi",
+    description: "Tüm gelir kaynaklarınızı tek platformdan yönetin ve optimize edin.",
     icon: DollarSign,
   },
   {
-    name: 'Performans Analizi',
-    description: 'Detaylı raporlar ve analizlerle hangi içeriklerin daha çok kazandırdığını görün.',
-    icon: BarChart,
+    name: "Ödeme Sistemleri",
+    description: "Güvenli ve hızlı ödeme sistemleriyle ödemelerinizi kolayca alın.",
+    icon: Wallet,
   },
   {
-    name: 'Hedef Kitle Analizi',
-    description: 'Müşteri davranışlarını analiz edin, hedef kitlenizi daha iyi tanıyın.',
-    icon: Target,
+    name: "Performans Takibi",
+    description: "Gelir performansınızı detaylı metriklerle analiz edin ve geliştirin.",
+    icon: BarChart3,
   },
   {
-    name: 'Hızlı Başlangıç',
-    description: 'Dakikalar içinde hesabınızı oluşturun ve kazanmaya başlayın.',
+    name: "Otomatik Ödemeler",
+    description: "Abonelik ve tekrarlayan ödemeleri otomatik olarak yönetin.",
     icon: Zap,
   },
 ];
@@ -34,11 +34,11 @@ export default function MonetizeSolutions() {
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="max-w-xl">
               <h1 className="text-4xl font-bold tracking-tight text-[#84ff20] sm:text-6xl">
-                İçeriklerinizi Gelire Dönüştürün
+                Monetize Business
               </h1>
               <p className="mt-6 text-lg leading-8 text-white">
-                Yaratıcı içeriklerinizi farklı gelir modellerine dönüştürün.
-                Hikie ile içerik üretmeye odaklanın, gelir yönetimini bize bırakın.
+                İçeriklerinizi ve hizmetlerinizi monetize edin.
+                Modern gelir yönetim araçlarıyla kazançlarınızı artırın!
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <Link
@@ -62,11 +62,110 @@ export default function MonetizeSolutions() {
         {/* İllüstrasyon */}
         <div className="mt-16 sm:mt-24 relative">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <img
-              src="/illustrations/monetize.svg"
-              alt="Gelir Modelleri"
-              className="w-full h-auto max-w-2xl mx-auto"
-            />
+            <div className="relative w-full bg-black rounded-xl overflow-hidden p-12">
+              {/* Roadmap Container */}
+              <div className="space-y-24">
+                {/* Gelir Stratejisi */}
+                <div className="flex items-center gap-12">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Creative Design _ creativity, imagination, playful, abstract, digital art.svg"
+                        alt="Gelir Stratejisi"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#84ff20] text-3xl font-semibold">1. Gelir Stratejisi</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Etkili bir gelir stratejisi oluşturun ve hedeflerinize ulaşın.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Gelir modeli seçimi</li>
+                        <li>Fiyatlandırma stratejileri</li>
+                        <li>Pazar analizi</li>
+                        <li>Hedef belirleme</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Ödeme Sistemleri */}
+                <div className="flex items-center gap-12 flex-row-reverse">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Creative Design _ abstract, geometric, shapes, figures, colors, playful, whimsical.svg"
+                        alt="Ödeme Sistemleri"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#ff008C] text-3xl font-semibold">2. Ödeme Sistemleri</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Güvenli ve esnek ödeme çözümleriyle gelirlerinizi yönetin.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Çoklu ödeme seçenekleri</li>
+                        <li>Abonelik yönetimi</li>
+                        <li>Otomatik faturalama</li>
+                        <li>Vergi yönetimi</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Gelir Optimizasyonu */}
+                <div className="flex items-center gap-12">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Social Media and Communication _ communication, expression, creativity, emotion, connection.svg"
+                        alt="Gelir Optimizasyonu"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#84ff20] text-3xl font-semibold">3. Gelir Optimizasyonu</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Gelirlerinizi optimize edin ve büyüme fırsatlarını değerlendirin.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Gelir analizi</li>
+                        <li>Dönüşüm optimizasyonu</li>
+                        <li>Müşteri segmentasyonu</li>
+                        <li>Fiyat optimizasyonu</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Finansal Raporlama */}
+                <div className="flex items-center gap-12 flex-row-reverse">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Achievement and Success _ construction, worker, progress, challenge, achievement.svg"
+                        alt="Finansal Raporlama"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#ff008C] text-3xl font-semibold">4. Finansal Raporlama</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Detaylı finansal raporlarla işinizi yakından takip edin.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Gelir raporları</li>
+                        <li>Nakit akışı takibi</li>
+                        <li>Trend analizi</li>
+                        <li>Tahminleme</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -74,11 +173,11 @@ export default function MonetizeSolutions() {
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl">
-              Gelir modelinizi çeşitlendirin
+              Gelirlerinizi güçlendirin
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
-              Tek bir platformda birden fazla gelir modeli ile kazancınızı artırın.
-              Hikie'nin gelişmiş araçlarıyla içeriklerinizi monetize edin.
+              Hikie'nin gelişmiş monetizasyon araçlarıyla gelir sürecinizi optimize edin.
+              Verimliliğinizi artırın ve finansal hedeflerinize ulaşın.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -106,11 +205,11 @@ export default function MonetizeSolutions() {
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8 pb-24">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl">
-              Gelir yolculuğunuza başlayın
+              Monetizasyon yolculuğunuza başlayın
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
-              Hikie ile içeriklerinizi gelire dönüştürmek için hemen başlayın. 
-              Profesyonel ekibimiz size yardımcı olmak için hazır.
+              Hikie ile gelir sürecinizi profesyonelleştirin. 
+              Uzman ekibimiz size yardımcı olmak için hazır.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link

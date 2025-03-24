@@ -62,11 +62,110 @@ export default function MerchSolutions() {
         {/* İllüstrasyon */}
         <div className="mt-16 sm:mt-24 relative">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <img
-              src="/illustrations/merch.svg"
-              alt="Merch Business"
-              className="w-full h-auto max-w-2xl mx-auto"
-            />
+            <div className="relative w-full bg-black rounded-xl overflow-hidden p-12">
+              {/* Roadmap Container */}
+              <div className="space-y-24">
+                {/* Tasarım Aşaması */}
+                <div className="flex items-center gap-12">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Creative Design _ creativity, imagination, playful, abstract, digital art.svg"
+                        alt="Tasarım Süreci"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#84ff20] text-3xl font-semibold">1. Tasarım ve Planlama</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Profesyonel tasarım ekibimiz, markanızın kimliğini yansıtan özel koleksiyonlar hazırlar.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Marka kimliğinize uygun tasarım konseptleri</li>
+                        <li>Hedef kitlenize özel ürün seçenekleri</li>
+                        <li>Sezonluk koleksiyon planlaması</li>
+                        <li>Malzeme ve üretim yöntemi seçimi</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Üretim Aşaması */}
+                <div className="flex items-center gap-12 flex-row-reverse">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Achievement and Success _ construction, worker, progress, challenge, achievement.svg"
+                        alt="Üretim Süreci"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#ff008C] text-3xl font-semibold">2. Üretim ve Kalite Kontrol</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Yüksek kalite standartlarında üretim ve detaylı kalite kontrol süreçleri.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Premium malzeme seçimi ve tedarik yönetimi</li>
+                        <li>Sürdürülebilir üretim yöntemleri</li>
+                        <li>Çok aşamalı kalite kontrol sistemi</li>
+                        <li>Özel paketleme ve etiketleme çözümleri</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Lojistik Aşaması */}
+                <div className="flex items-center gap-12">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Transportation and Logistics _ car, transportation, speed, power, energy, city, traffic.svg"
+                        alt="Lojistik Süreci"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#84ff20] text-3xl font-semibold">3. Lojistik ve Depolama</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Tam entegre lojistik çözümleri ile stok ve sevkiyat yönetimi.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Akıllı depolama sistemleri ve stok takibi</li>
+                        <li>Hızlı ve güvenli kargo hizmeti</li>
+                        <li>Gerçek zamanlı sipariş takibi</li>
+                        <li>Uluslararası lojistik ağı</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Satış Aşaması */}
+                <div className="flex items-center gap-12 flex-row-reverse">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Social Media and Communication _ communication, expression, creativity, emotion, connection.svg"
+                        alt="Satış Süreci"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#ff008C] text-3xl font-semibold">4. Satış ve Pazarlama</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Global pazarlarda etkili satış stratejileri ve pazarlama desteği.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>E-ticaret platformu entegrasyonu</li>
+                        <li>Sosyal medya pazarlama desteği</li>
+                        <li>Analitik raporlama ve performans takibi</li>
+                        <li>Müşteri hizmetleri yönetimi</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

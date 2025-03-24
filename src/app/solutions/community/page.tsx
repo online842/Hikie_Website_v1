@@ -1,27 +1,27 @@
 'use client';
 
-import { Users, MessageSquare, Heart, Zap, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { Users, MessageSquare, Heart, ArrowRight, Zap } from 'lucide-react';
 
 const features = [
   {
-    name: 'Topluluk Etkileşimi',
-    description: 'Üyelerinizle etkili iletişim kurun, geri bildirimleri yönetin.',
+    name: "Topluluk Yönetimi",
+    description: "Topluluğunuzu tek platformdan profesyonel şekilde yönetin.",
     icon: Users,
   },
   {
-    name: 'Sohbet ve Tartışma',
-    description: 'Canlı sohbetler ve forum tartışmalarıyla topluluğunuzu aktif tutun.',
+    name: "İletişim Araçları",
+    description: "Gelişmiş iletişim araçlarıyla üyelerinizle etkileşimi artırın.",
     icon: MessageSquare,
   },
   {
-    name: 'Bağlılık Programları',
-    description: 'Özel ödüller ve programlarla üye bağlılığını artırın.',
+    name: "Üye Bağlılığı",
+    description: "Özel programlar ve etkinliklerle üye bağlılığını güçlendirin.",
     icon: Heart,
   },
   {
-    name: 'Hızlı Büyüme',
-    description: 'Viral büyüme stratejileriyle topluluğunuzu genişletin.',
+    name: "Hızlı Büyüme",
+    description: "Etkili büyüme stratejileriyle topluluğunuzu genişletin.",
     icon: Zap,
   },
 ];
@@ -34,11 +34,11 @@ export default function CommunitySolutions() {
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="max-w-xl">
               <h1 className="text-4xl font-bold tracking-tight text-[#84ff20] sm:text-6xl">
-                Community
+                Community Business
               </h1>
               <p className="mt-6 text-lg leading-8 text-white">
-                Topluluğunuzu güçlendirin, etkileşimi artırın ve büyümeyi hızlandırın.
-                Modern topluluk yönetim araçlarıyla fark yaratın.
+                Topluluğunuzu profesyonel şekilde yönetin ve büyütün.
+                Modern topluluk yönetim araçlarıyla fark yaratın!
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <Link
@@ -62,11 +62,110 @@ export default function CommunitySolutions() {
         {/* İllüstrasyon */}
         <div className="mt-16 sm:mt-24 relative">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <img
-              src="/illustrations/community.svg"
-              alt="Community"
-              className="w-full h-auto max-w-2xl mx-auto"
-            />
+            <div className="relative w-full bg-black rounded-xl overflow-hidden p-12">
+              {/* Roadmap Container */}
+              <div className="space-y-24">
+                {/* Topluluk Yönetimi */}
+                <div className="flex items-center gap-12">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Creative Design _ creativity, imagination, playful, abstract, digital art.svg"
+                        alt="Topluluk Yönetimi"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#84ff20] text-3xl font-semibold">1. Topluluk Yönetimi</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Topluluğunuzu profesyonel araçlarla yönetin ve geliştirin.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Üye yönetimi</li>
+                        <li>İçerik moderasyonu</li>
+                        <li>Rol ve izin yönetimi</li>
+                        <li>Etkinlik organizasyonu</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Etkileşim ve İletişim */}
+                <div className="flex items-center gap-12 flex-row-reverse">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Creative Design _ abstract, geometric, shapes, figures, colors, playful, whimsical.svg"
+                        alt="Etkileşim ve İletişim"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#ff008C] text-3xl font-semibold">2. Etkileşim ve İletişim</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Üyelerinizle etkili iletişim kurun ve etkileşimi artırın.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Canlı sohbet</li>
+                        <li>Forum yönetimi</li>
+                        <li>Bildirim sistemi</li>
+                        <li>Özel mesajlaşma</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Gamification */}
+                <div className="flex items-center gap-12">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Social Media and Communication _ communication, expression, creativity, emotion, connection.svg"
+                        alt="Gamification"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#84ff20] text-3xl font-semibold">3. Gamification</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Oyunlaştırma ile üye katılımını ve bağlılığını artırın.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Rozet sistemi</li>
+                        <li>Seviye atlama</li>
+                        <li>Ödül programları</li>
+                        <li>Liderlik tablosu</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Hedef Odaklı Büyüme */}
+                <div className="flex items-center gap-12 flex-row-reverse">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Achievement and Success _ construction, worker, progress, challenge, achievement.svg"
+                        alt="Hedef Odaklı Büyüme"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#ff008C] text-3xl font-semibold">4. Hedef Odaklı Büyüme</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Topluluğunuzu stratejik olarak büyütün ve hedeflerinize ulaşın.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Büyüme stratejileri</li>
+                        <li>Analitik takibi</li>
+                        <li>A/B testleri</li>
+                        <li>Performans ölçümü</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -74,11 +173,11 @@ export default function CommunitySolutions() {
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl">
-              Topluluk yönetiminde yeni nesil
+              Topluluğunuzu güçlendirin
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
-              Hikie ile topluluğunuzu yönetmek çok daha kolay.
-              Modern araçlarla etkileşimi artırın, büyümeyi hızlandırın.
+              Hikie'nin gelişmiş topluluk yönetim araçlarıyla etkileşimi artırın.
+              Verimliliğinizi artırın ve topluluğunuzu büyütün.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -109,8 +208,8 @@ export default function CommunitySolutions() {
               Topluluk yolculuğunuza başlayın
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
-              Hikie ile topluluğunuzu büyütmek için hemen başlayın. 
-              Profesyonel ekibimiz size yardımcı olmak için hazır.
+              Hikie ile topluluk yönetim sürecinizi profesyonelleştirin. 
+              Uzman ekibimiz size yardımcı olmak için hazır.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link

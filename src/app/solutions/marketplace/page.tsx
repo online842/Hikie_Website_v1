@@ -1,28 +1,28 @@
 'use client';
 
-import { Globe, ShoppingCart, Truck, Shield, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { ShoppingBag, Users, BarChart3, ArrowRight, Globe } from 'lucide-react';
 
 const features = [
   {
-    name: 'Global Erişim',
-    description: 'Ürünlerinizi dünya çapında milyonlarca potansiyel müşteriye ulaştırın.',
+    name: "Global Erişim",
+    description: "Ürünlerinizi dünya çapında milyonlarca potansiyel müşteriye ulaştırın.",
     icon: Globe,
   },
   {
-    name: 'Kolay Entegrasyon',
-    description: 'Tek tıkla pazaryeri entegrasyonunu tamamlayın, hemen satışa başlayın.',
-    icon: ShoppingCart,
+    name: "Satış Yönetimi",
+    description: "Siparişleri, ödemeleri ve envanter yönetimini tek platformdan kontrol edin.",
+    icon: ShoppingBag,
   },
   {
-    name: 'Lojistik Çözümler',
-    description: 'Kargo ve depolama süreçlerini otomatik yönetin.',
-    icon: Truck,
+    name: "Müşteri İlişkileri",
+    description: "Müşteri geri bildirimlerini yönetin ve sadakat programları oluşturun.",
+    icon: Users,
   },
   {
-    name: 'Güvenli Altyapı',
-    description: 'SSL sertifikalı güvenli ödeme altyapısı ve 7/24 destek.',
-    icon: Shield,
+    name: "Performans Analizi",
+    description: "Satış performansınızı detaylı metriklerle takip edin ve optimize edin.",
+    icon: BarChart3,
   },
 ];
 
@@ -34,11 +34,11 @@ export default function MarketplaceSolutions() {
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div className="max-w-xl">
               <h1 className="text-4xl font-bold tracking-tight text-[#84ff20] sm:text-6xl">
-                Pazaryeri Entegrasyonu
+                Marketplace Business
               </h1>
               <p className="mt-6 text-lg leading-8 text-white">
-                Hikie'nin gelişmiş pazaryeri entegrasyonu ile ürünlerinizi daha geniş kitlelere ulaştırın.
-                Tek panelden tüm satış kanallarınızı yönetin.
+                Dijital ürünlerinizi global pazarda satışa sunun.
+                Modern e-ticaret araçlarıyla satışlarınızı artırın!
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <Link
@@ -62,11 +62,110 @@ export default function MarketplaceSolutions() {
         {/* İllüstrasyon */}
         <div className="mt-16 sm:mt-24 relative">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <img
-              src="/illustrations/marketplace.svg"
-              alt="Pazaryeri Entegrasyonu"
-              className="w-full h-auto max-w-2xl mx-auto"
-            />
+            <div className="relative w-full bg-black rounded-xl overflow-hidden p-12">
+              {/* Roadmap Container */}
+              <div className="space-y-24">
+                {/* Ürün Yönetimi */}
+                <div className="flex items-center gap-12">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Creative Design _ creativity, imagination, playful, abstract, digital art.svg"
+                        alt="Ürün Yönetimi"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#84ff20] text-3xl font-semibold">1. Ürün Yönetimi</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Dijital ürünlerinizi profesyonel bir şekilde yönetin.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Ürün kataloğu yönetimi</li>
+                        <li>Fiyatlandırma stratejileri</li>
+                        <li>Envanter takibi</li>
+                        <li>Ürün varyasyonları</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Satış Süreci */}
+                <div className="flex items-center gap-12 flex-row-reverse">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Creative Design _ abstract, geometric, shapes, figures, colors, playful, whimsical.svg"
+                        alt="Satış Süreci"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#ff008C] text-3xl font-semibold">2. Satış Süreci</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Satış sürecinizi optimize edin ve dönüşüm oranlarını artırın.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Ödeme sistemleri entegrasyonu</li>
+                        <li>Sepet optimizasyonu</li>
+                        <li>Otomatik teslimat sistemleri</li>
+                        <li>Sipariş takibi</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Müşteri Deneyimi */}
+                <div className="flex items-center gap-12">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Social Media and Communication _ communication, expression, creativity, emotion, connection.svg"
+                        alt="Müşteri Deneyimi"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#84ff20] text-3xl font-semibold">3. Müşteri Deneyimi</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Müşterilerinize kusursuz bir alışveriş deneyimi sunun.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Kişiselleştirilmiş öneriler</li>
+                        <li>Müşteri desteği</li>
+                        <li>Ürün değerlendirmeleri</li>
+                        <li>Sadakat programları</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Büyüme ve Optimizasyon */}
+                <div className="flex items-center gap-12 flex-row-reverse">
+                  <div className="w-1/3">
+                    <div className="relative h-64">
+                      <img
+                        src="/illustrations/Figure Ecology Illustrations/SVG/Scenes/Achievement and Success _ construction, worker, progress, challenge, achievement.svg"
+                        alt="Büyüme ve Optimizasyon"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-2/3 space-y-4">
+                    <h3 className="text-[#ff008C] text-3xl font-semibold">4. Büyüme ve Optimizasyon</h3>
+                    <div className="space-y-4 text-white">
+                      <p className="text-lg">Satışlarınızı artırın ve pazaryerinizi sürekli geliştirin.</p>
+                      <ul className="list-disc list-inside space-y-2 text-white/80">
+                        <li>Satış analizi ve raporlama</li>
+                        <li>SEO optimizasyonu</li>
+                        <li>Pazarlama kampanyaları</li>
+                        <li>Conversion optimizasyonu</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -74,11 +173,11 @@ export default function MarketplaceSolutions() {
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl">
-              Satışlarınızı artırın
+              Satışlarınızı güçlendirin
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
-              Hikie pazaryeri entegrasyonu ile satışlarınızı kolayca yönetin.
-              Tek platformdan tüm satış kanallarınızı kontrol edin.
+              Hikie'nin gelişmiş e-ticaret araçlarıyla satış sürecinizi optimize edin.
+              Verimliliğinizi artırın ve global pazarda büyüyün.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -106,11 +205,11 @@ export default function MarketplaceSolutions() {
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8 pb-24">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-[#84ff20] sm:text-4xl">
-              Pazaryeri yolculuğunuza başlayın
+              Satış yolculuğunuza başlayın
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
-              Hikie ile pazaryeri entegrasyonunuzu hemen başlatın. 
-              Profesyonel ekibimiz size yardımcı olmak için hazır.
+              Hikie ile e-ticaret sürecinizi profesyonelleştirin. 
+              Uzman ekibimiz size yardımcı olmak için hazır.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
