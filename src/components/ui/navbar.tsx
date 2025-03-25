@@ -21,7 +21,7 @@ const solutions = [
     href: '/solutions/marketplace'
   },
   {
-    name: 'Topluluğunu Başlat ve Abonelik Sat',
+    name: 'Topluluğunu Başlat ve Abonelik Sat <i>(Çok Yakında)</i>',
     description: 'Topluluğunu oluştur ve abonelik sistemiyle gelir elde et',
     href: '/solutions/community'
   }
