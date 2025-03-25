@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { ShoppingBag, Truck, Palette, Globe, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function MerchSolutions() {
   return (
@@ -13,8 +13,8 @@ export default function MerchSolutions() {
             Merch Business
           </h2>
           <p className="mt-6 text-lg leading-8 text-white">
-            Kendi merch koleksiyonunuzu oluşturun, üretimden satışa tüm operasyonu bize bırakın.
-            Siz topluluğunuza odaklanın, gerisini biz halledelim!
+            Topluluğunuza özel merch koleksiyonu oluşturun ve operasyonlarınızı yönetin.
+            Siz tasarlayın, gerisini biz halledelim!
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <Link
@@ -50,7 +50,7 @@ export default function MerchSolutions() {
                   Profesyonel Tasarım Desteği
                 </h3>
                 <p className="mt-5 text-sm leading-6 text-white">
-                  Markanızın kimliğini yansıtan özel koleksiyonlar tasarlıyoruz. Premium malzemeler ve kalite kontrol süreçleriyle üretimi biz yönetiyoruz.
+                  Özel tasarım araçlarımızla koleksiyonunuzu oluşturun. Kalite kontrol süreçleri ve üretim takibi ile ürünlerinizi güvenle üretin.
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function MerchSolutions() {
                   Global Dağıtım Ağı
                 </h3>
                 <p className="mt-5 text-sm leading-6 text-white">
-                  Dünya çapında hızlı ve güvenli teslimat sağlıyoruz. Akıllı depolama sistemleri ve gerçek zamanlı sipariş takibiyle lojistik operasyonları sorunsuz yönetiyoruz.
+                  Global lojistik ağımızla ürünlerinizi dünyanın her yerine ulaştırın. Otomatik kargo takibi ve teslimat optimizasyonu ile müşteri memnuniyetini artırın.
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function MerchSolutions() {
               Merch yolculuğunuza başlayın
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
-              Hikie ile merch işinizi büyütmek için hemen başlayın
+              Hikie ile global merch operasyonlarınızı yönetin
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
