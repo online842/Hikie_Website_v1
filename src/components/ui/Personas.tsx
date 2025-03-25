@@ -5,7 +5,7 @@ import { Palette, Users, Lightbulb, BookOpen, Store, CreditCard, Users2, Buildin
 const personas = [
   {
     title: "Kreatörler",
-    description: "Dijital dünyada iz bırakanlar için",
+    description: "Dijital dünyada ilk gelirini elde etmek isteyenler için",
     icon: Palette,
     features: [
       {

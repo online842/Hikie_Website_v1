@@ -6,20 +6,19 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 
 const solutions = [
   {
-    name: 'Senin için Üretelim',
-    description: 'Kendi merch koleksiyonunu oluştur ve yönet',
+    name: 'Markanı Yarat',
+    description: 'Kendi ürünlerini bizimle tasarla ve sat, üretiminden kargolamasına istediğin süreci biz yönetelim.',
     href: '/solutions/merch'
   },
   {
-    name: 'Websitenden Satış Yap',
-    description: 'Yaratıcı içeriklerini gelire dönüştür',
+    name: 'Kendi websitenden Satış Yap',
+    description: 'Yaratıcı ürünlerini gelire dönüştür',
     href: '/solutions/monetize'
   },
   {
     name: 'Pazaryerimize Katıl',
     description: 'Ürünlerini daha geniş kitlelere ulaştır',
     href: '/solutions/marketplace'
-    
   },
   {
     name: 'Topluluğunu Başlat ve Abonelik Sat',
@@ -75,7 +74,7 @@ export default function Navbar() {
             <button
               type="button"
               className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-white hover:text-[#ff008C]"
-              onClick={() => setSolutionsOpen(!solutionsOpen)}
+              onMouseEnter={() => setSolutionsOpen(true)}
             >
               Kolaylaştırdığımız İşler
               <ChevronDown className="h-4 w-4" aria-hidden="true" />
@@ -83,7 +82,10 @@ export default function Navbar() {
 
             {/* Solutions panel */}
             {solutionsOpen && (
-              <div className="absolute left-1/2 z-10 mt-4 w-screen max-w-md -translate-x-1/2 px-4">
+              <div 
+                className="absolute left-1/2 z-10 mt-4 w-screen max-w-md -translate-x-1/2 px-4"
+                onMouseLeave={() => setSolutionsOpen(false)}
+              >
                 <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-[#ff008C] ring-opacity-5">
                   <div className="relative grid gap-6 bg-[#000000] p-6 sm:gap-8 sm:p-8">
                     {solutions.map((item) => (

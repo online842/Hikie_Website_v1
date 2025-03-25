@@ -1,7 +1,8 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/solutions/community/page": "app/solutions/community/page.js",
+  "/solutions/marketplace/page": "app/solutions/marketplace/page.js",
   "/solutions/merch/page": "app/solutions/merch/page.js",
-  "/solutions/monetize/page": "app/solutions/monetize/page.js",
   "/page": "app/page.js",
-  "/solutions/marketplace/page": "app/solutions/marketplace/page.js"
+  "/solutions/monetize/page": "app/solutions/monetize/page.js"
 }

@@ -95,7 +95,7 @@ export default function Contact() {
             Acil sorular için
           </p>
           <a
-            href="mailto:hello@hikie.co"
+            href="mailto:info@hikie.space"
             className="text-[#84ff20] font-medium hover:text-[#ff008C] transition-colors inline-flex items-center gap-2"
           >
             info@hikie.space

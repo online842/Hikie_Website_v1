@@ -50,6 +50,11 @@ export default function Footer() {
             <h3 className="font-semibold text-[#ff008C] mb-4">Ürün</h3>
             <ul className="space-y-3">
               <li>
+                <Link href="/solutions" className="text-[#84ff20] hover:text-[#ff008C]">
+                  Çözümler
+                </Link>
+              </li>
+              <li>
                 <Link href="/features" className="text-[#84ff20] hover:text-[#ff008C]">
                   Özellikler
                 </Link>
@@ -82,8 +87,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:hello@hikie.co" className="text-[#84ff20] hover:text-[#ff008C]">
-                  hello@hikie.co
+                <a href="mailto:info@hikie.space" className="text-[#84ff20] hover:text-[#ff008C]">
+                  info@hikie.space
                 </a>
               </li>
               <li>
